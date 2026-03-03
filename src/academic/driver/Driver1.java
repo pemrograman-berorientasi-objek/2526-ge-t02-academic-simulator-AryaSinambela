@@ -1,11 +1,9 @@
 package academic.driver;
 
 /**
- * @author NIM Nama
- * @author NIM Nama
+ * Arya Pratama Sinambela - 12S24017
  */
-// File: src/academic/driver/Driver1.java
-    
+
     import academic.model.Course;
     import java.util.Scanner;
     import java.util.ArrayList; // Menggunakan ArrayList untuk penyimpanan dinamis

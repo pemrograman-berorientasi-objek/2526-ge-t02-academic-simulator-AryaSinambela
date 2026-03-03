@@ -1,9 +1,9 @@
 package academic.driver;
 
 /**
- * @author NIM Nama
- * @author NIM Nama
+ * Arya Pratama Sinambela - 12S24017
  */
+
 
     import academic.model.Enrollment; // Mengimpor kelas Enrollment
     import java.util.Scanner;
@@ -17,7 +17,7 @@ package academic.driver;
             List<Enrollment> enrollments = new ArrayList<>(); // Menggunakan ArrayList untuk menyimpan Enrollment
 
             String line;
-            System.out.println("Masukkan data enrollment (format: CourseCode#NIM#TahunAkademik#Semester), ketik '---' untuk berhenti:");
+          
 
             while (input.hasNextLine()) {
                 line = input.nextLine();
@@ -46,7 +46,7 @@ package academic.driver;
             }
 
             // Setelah input berhenti, tampilkan semua enrollments yang tersimpan
-            System.out.println("\n--- Daftar Enrollment yang Tersimpan ---");
+           
             for (Enrollment enrollment : enrollments) {
                 System.out.println(enrollment.toString()); // Menggunakan metode toString() Enrollment
             }

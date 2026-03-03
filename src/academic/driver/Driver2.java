@@ -1,11 +1,8 @@
 package academic.driver;
    
-    /**
-     * @author NIM Nama
-     * @author NIM Nama
-     */
-    
-// File: src/academic/driver/Driver2.java
+/**
+ * Arya Pratama Sinambela - 12S24017
+ */
 
     import academic.model.Student; // Mengimpor kelas Student
     import java.util.Scanner;

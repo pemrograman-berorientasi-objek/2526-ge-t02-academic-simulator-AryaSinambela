@@ -1,11 +1,9 @@
 package academic.driver;
 
 /**
- * @author NIM Nama
- * @author NIM Nama
+ * Arya Pratama Sinambela - 12S24017
  */
-// File: src/academic/driver/Driver4.java
-  
+
     import academic.model.Course;
     import academic.model.Student;
     import academic.model.Enrollment;
@@ -22,7 +20,7 @@ package academic.driver;
             List<Enrollment> enrollments = new ArrayList<>();
 
             String line;
-            System.out.println("Masukkan data (course-add#..., student-add#..., enrollment-add#...), ketik '---' untuk berhenti:");
+           
 
             while (input.hasNextLine()) {
                 line = input.nextLine();
@@ -90,8 +88,7 @@ package academic.driver;
                 }
             }
 
-            // Setelah input berhenti, tampilkan semua entitas sesuai urutan yang diminta
-            System.out.println("\n--- Daftar Entitas yang Tersimpan ---");
+           
 
             // 1. Tampilkan Courses
             for (Course course : courses) {
